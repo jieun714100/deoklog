@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>덕로그 | 나의 공연 기록</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- 사이드바 -->
+        <aside class="sidebar">
+            <h2 class="logo">덕로그<span>.</span></h2>
+            <p class="logo-sub">MY FAN DIARY</p>
+
+            <nav>
+                <a href="#" class="active">홈</a>
+                <a href="#">공연 일정</a>
+                <a href="#">아이돌 그룹</a>
+                <a href="#">공연 기록</a>
+                <a href="#">지출 관리</a>
+                <a href="#">나의 후기</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <p>나의 덕질을 기록하는 곳</p>
+            </div>
+        </aside>
+
+
+        <!-- 메인 콘텐츠 -->
+        <main class="main">
+
+            <header class="top">
+                <div>
+                    <h1>나의 덕로그</h1>
+                    <p>소중했던 순간들을 기록해 보세요.</p>
+                </div>
+
+                <button class="add-btn">+ 공연 추가</button>
+            </header>
+
+
+            <!-- 통계 -->
+            <section class="summary">
+                <div class="summary-card">
+                    <p>다녀온 공연</p>
+                    <h2>12<span>회</span></h2>
+                    <small>지금까지의 기록</small>
+                </div>
+
+                <div class="summary-card">
+                    <p>총 지출 금액</p>
+                    <h2>1,250,000<span>원</span></h2>
+                    <small>공연 관련 누적 지출</small>
+                </div>
+
+                <div class="summary-card">
+                    <p>관심 그룹</p>
+                    <h2>3<span>팀</span></h2>
+                    <small>내가 좋아하는 그룹</small>
+                </div>
+            </section>
+
+
+            <!-- 다가오는 공연 -->
+            <section class="section">
+                <div class="section-title">
+                    <h2>다가오는 공연</h2>
+                    <a href="#">전체보기 →</a>
+                </div>
+
+                <div class="event-list">
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span>DEC</span>
+                            <strong>15</strong>
+                        </div>
+
+                        <div class="event-info">
+                            <h3>NCT DREAM TOUR</h3>
+                            <p>NCT DREAM · KSPO DOME</p>
+                            <span class="status">참석 예정</span>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span>DEC</span>
+                            <strong>22</strong>
+                        </div>
+
+                        <div class="event-info">
+                            <h3>WINTER FANMEETING</h3>
+                            <p>AM8IC · 블루스퀘어</p>
+                            <span class="status waiting">관심 공연</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- 최근 공연 기록 -->
+            <section class="section">
+                <div class="section-title">
+                    <h2>최근 공연 기록</h2>
+                    <a href="#">전체보기 →</a>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>공연명</th>
+                            <th>그룹</th>
+                            <th>날짜</th>
+                            <th>티켓 가격</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>NCT DREAM SHOW</td>
+                            <td>NCT DREAM</td>
+                            <td>2026.10.12</td>
+                            <td>154,000원</td>
+                        </tr>
+
+                        <tr>
+                            <td>FAN CONCERT</td>
+                            <td>AM8IC</td>
+                            <td>2026.09.20</td>
+                            <td>110,000원</td>
+                        </tr>
+
+                        <tr>
+                            <td>SUMMER FESTIVAL</td>
+                            <td>NCT</td>
+                            <td>2026.08.15</td>
+                            <td>99,000원</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
